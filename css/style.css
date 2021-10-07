@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Nav Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.navbar > ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar > ul > li {
+    font-family: Cambria;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar > ul > li > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    transition: all 0.5 ease;
+}
+
+.navbar > ul > li > a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 1.1rem;
+}
+
+
+
+
+
+
